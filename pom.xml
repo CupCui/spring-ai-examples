@@ -60,7 +60,8 @@
 		<!-- ADVISORS -->
 		<module>advisors/recursive-advisor-demo</module>
 		<module>advisors/evaluation-recursive-advisor-demo</module>
-		
-	</modules>
+        <module>models/chat/ollama</module>
+
+    </modules>
 
 </project>
