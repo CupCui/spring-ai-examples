@@ -1,3 +1,6 @@
+server:
+  port: 17070
+
 spring:
   application:
     name: ollama
