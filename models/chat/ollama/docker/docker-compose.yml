@@ -1,0 +1,11 @@
+version: '0.0.1-SNAPSHOT'
+services:
+  ai-ollama-helloworld:
+    container_name: ai-ollama-helloworld
+    build:
+      context: ./ai-ollama-helloworld
+      dockerfile: dockerfile
+    ports:
+      - "27070:27070"
+    volumes:
+      - /Users/garre/downloads/ai-ollama-helloworld/application.yaml:/opt/apload/apps/spring-ai/spring-ai-examples/ai-ollama-helloworld/application.yaml

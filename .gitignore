@@ -64,3 +64,6 @@ logs/
 *.log
 test-report.md
 integration-results.md
+
+### Mac ###
+*.DS_Store
