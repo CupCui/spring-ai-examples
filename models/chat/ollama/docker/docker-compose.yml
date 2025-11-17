@@ -8,4 +8,4 @@ services:
     ports:
       - "27070:27070"
     volumes:
-      - /Users/garre/downloads/ai-ollama-helloworld/application.yaml:/opt/apload/apps/spring-ai/spring-ai-examples/ai-ollama-helloworld/application.yaml
+      - ./ai-ollama-helloworld/application.yaml:/home/spring-ai/spring-ai-examples/ai-ollama-helloworld/application.yaml

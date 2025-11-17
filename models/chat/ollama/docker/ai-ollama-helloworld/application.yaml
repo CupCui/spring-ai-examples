@@ -1,0 +1,4 @@
+spring:
+  ai:
+    ollama:
+      base-url: http://192.168.0.101:11434
